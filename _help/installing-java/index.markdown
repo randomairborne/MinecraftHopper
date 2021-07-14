@@ -46,11 +46,11 @@ You should get a "Run" window open up, type in "cmd" and press "OK."
 * Press enter, and afterwards the second line of the output will tell you if you are using 32-bit or 64-bit.
 
 #### If you are using 64-bit
-* Go to the [Oracle Java Download page](https://www.java.com/en/download/windows-64bit.jsp) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "jre-8uABC-windows-x64.exe" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
+* Go to the [Oracle Java Download page](https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16.0.1%2B9/OpenJDK16U-jdk_x64_windows_hotspot_16.0.1_9.msi) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "jre-8uABC-windows-x64.exe" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
 
 #### If you are using 32-bit
 
-* Go to the [Oracle Java Download page](https://www.java.com/inc/BrowserRedirect1.jsp?locale=en) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "**jre-8uABC-windows-i586.exe**" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
+* Go to the [Oracle Java Download page](https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16.0.1%2B9/OpenJDK16U-jdk_x86-32_windows_hotspot_16.0.1_9.msi) and press the button next to "**Accept License Agreement**" under the "**Java SE Runtime Environment**" header. It should then give you a "**Thank you**" message, once it does look for "**jre-8uABC-windows-i586.exe**" (where ABC is a two or three digit version code) under the "Download" table - download and install the file.
 Once you have downloaded and installed Java, you should be all set. It is recommended to run a check to see that Java is properly installed, you can do that by going to Command Prompt again and using the command java -version — if you get an error, redo the steps or contact our technical support resources. Otherwise, Java should be successfully installed on your computer.
 
 ## [Installing Java for MacOS](#install-macos) {#install-macos}
@@ -62,14 +62,14 @@ Once you have downloaded and installed Java, you should be all set. It is recomm
 
 #### Ubuntu/Most Debian distros
 - Open up your terminal
-- Enter in Terminal: `sudo apt update;sudo apt install openjdk-8-jre`, Press enter then enter your password.
-- After installing run `sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java 100;sudo update-alternatives --config java`
-- When it prompts you to, select jre 8 using your arrow keys
+- Enter in Terminal: `sudo apt update;sudo apt install openjdk-16-jdk `, Press enter then enter your password.
+- After installing run `sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-16-openjdk-amd64/jre/bin/java 100;sudo update-alternatives --config java`
+- When it prompts you to, select jdk 16 using your arrow keys
 
 #### Arch/Manjaro/Arch related
 - Open up your terminal
-- Enter in Terminal: `sudo pacman -Syu jre8-openjdk java-runtime-common`, Press enter then enter your password.
-- After installing run `sudo archlinux-java set java-8-openjdk`
+- Enter in Terminal: `sudo pacman -Syu jdk-8-openjdk java-runtime-common`, Press enter then enter your password.
+- After installing run `sudo archlinux-java set java-16-openjdk`
 
 
 Once you have installed the proper Java version, you should give the game a go!
